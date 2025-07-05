@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: AudioWGrach/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638855007719562253
+  lastModified: 638873157139939693
   FileSizes:
   - Name: Desktop
-    Value: 6111936
+    Value: 6136672
   Exists: 1
 --- !u!114 &-2340281168689588600
 MonoBehaviour:
@@ -47,6 +47,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 51000
+--- !u!114 &-490448644495214249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Doors
+  m_EditorClassIdentifier: 
+  Path: event:/Doors
+  Guid:
+    Data1: 1232872177
+    Data2: 1213253889
+    Data3: 933818285
+    Data4: -1147375207
+  Banks:
+  - {fileID: -9017128687240550618}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 4041355673515435383}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 625
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68,12 +96,14 @@ MonoBehaviour:
   - {fileID: -2340281168689588600}
   - {fileID: 4620263065092664288}
   - {fileID: 407604475581559592}
+  - {fileID: 6597008863530528818}
+  - {fileID: -490448644495214249}
   EditorParameters: []
   MasterBanks:
   - {fileID: -9017128687240550618}
   StringsBanks:
   - {fileID: 1782236777001576032}
-  cacheTime: 638855007719582250
+  cacheTime: 638873157139954774
   cacheVersion: 131617
 --- !u!114 &407604475581559592
 MonoBehaviour:
@@ -117,10 +147,10 @@ MonoBehaviour:
   Path: AudioWGrach/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638855007719582250
+  lastModified: 638873157139954774
   FileSizes:
   - Name: Desktop
-    Value: 1140
+    Value: 1276
   Exists: 1
 --- !u!114 &3758740584703779680
 MonoBehaviour:
@@ -147,6 +177,32 @@ MonoBehaviour:
   Labels:
   - stone
   - wood
+  Exists: 1
+--- !u!114 &4041355673515435383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Doors/DoorSwitch
+  m_EditorClassIdentifier: 
+  Name: DoorSwitch
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 364631981
+    data2: 813360523
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - OpenDoor
+  - CloseDoor
   Exists: 1
 --- !u!114 &4620263065092664288
 MonoBehaviour:
@@ -203,6 +259,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 207609
+--- !u!114 &6597008863530528818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Outside
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Outside
+  Guid:
+    Data1: 1147763481
+    Data2: 1254817064
+    Data3: -113070928
+    Data4: 1300218400
+  Banks:
+  - {fileID: -9017128687240550618}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &7840059489574424299
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -17,8 +17,20 @@
 	<object class="MixerBusEffectChain" id="{71594a64-bad5-4c1c-a506-683bab0d031b}">
 		<relationship name="effects">
 			<destination>{f883d27a-1599-4288-86cf-0444ea24b687}</destination>
+			<destination>{50febb97-c562-445e-9302-031413b3fcb3}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{af2276ef-dfaf-4444-ab56-4181df709484}" />
 	<object class="MixerBusFader" id="{f883d27a-1599-4288-86cf-0444ea24b687}" />
+	<object class="MixerSend" id="{50febb97-c562-445e-9302-031413b3fcb3}">
+		<property name="level">
+			<value>0</value>
+		</property>
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{3af813be-cc15-49dd-bc69-22a8a30850c5}</destination>
+		</relationship>
+	</object>
 </objects>

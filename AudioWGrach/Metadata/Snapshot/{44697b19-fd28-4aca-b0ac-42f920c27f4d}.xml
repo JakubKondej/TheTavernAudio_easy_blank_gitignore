@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Snapshot" id="{44697b19-fd28-4aca-b0ac-42f920c27f4d}">
+		<property name="name">
+			<value>Outside</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{6b864b11-1f00-4766-916c-0eb5062821f9}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{a93f639c-8e12-4699-a685-4df8b3fa9871}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{e9b5e06a-f726-4405-8d37-ba815d845940}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{034369cc-fddf-419d-affb-4c87998aba9d}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{0a76901e-ee0f-494c-bcfa-cc5a37278cdc}</destination>
+		</relationship>
+		<relationship name="snapshotProperties">
+			<destination>{d00b55bf-0e6a-4662-823a-baf9c048d430}</destination>
+			<destination>{db956fcd-d0a3-4744-96d5-4e6ab6b4d1c1}</destination>
+		</relationship>
+		<relationship name="snapshotTracks">
+			<destination>{68a3297a-6691-41a9-a00b-b1299d693f6d}</destination>
+			<destination>{7e9076eb-11ed-48f3-80c8-4495eef11560}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{a93f639c-8e12-4699-a685-4df8b3fa9871}" />
+	<object class="MarkerTrack" id="{e9b5e06a-f726-4405-8d37-ba815d845940}" />
+	<object class="Timeline" id="{034369cc-fddf-419d-affb-4c87998aba9d}" />
+	<object class="SnapshotMasterTrack" id="{0a76901e-ee0f-494c-bcfa-cc5a37278cdc}" />
+	<object class="SnapshotProperty" id="{d00b55bf-0e6a-4662-823a-baf9c048d430}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{c82a7268-597e-409b-8652-4486cec8fd14}</destination>
+		</relationship>
+		<relationship name="automatableObject">
+			<destination>{4f5fea8e-61b6-4f09-b879-e3926ffe84ed}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotProperty" id="{db956fcd-d0a3-4744-96d5-4e6ab6b4d1c1}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{d2d941f5-60da-435e-afa5-d5bdf92e3b8c}</destination>
+		</relationship>
+		<relationship name="automatableObject">
+			<destination>{49e1e480-d57f-46fa-b4bd-808e3a3300b3}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{68a3297a-6691-41a9-a00b-b1299d693f6d}">
+		<relationship name="mixerStrip">
+			<destination>{4f5fea8e-61b6-4f09-b879-e3926ffe84ed}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{7e9076eb-11ed-48f3-80c8-4495eef11560}">
+		<relationship name="mixerStrip">
+			<destination>{49e1e480-d57f-46fa-b4bd-808e3a3300b3}</destination>
+		</relationship>
+	</object>
+	<object class="ADSRModulator" id="{c82a7268-597e-409b-8652-4486cec8fd14}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>value</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>2000</value>
+		</property>
+		<property name="releaseTime">
+			<value>2000</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{d2d941f5-60da-435e-afa5-d5bdf92e3b8c}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>value</value>
+		</property>
+		<property name="attackTime">
+			<value>2000</value>
+		</property>
+		<property name="peakValue">
+			<value>-10</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="sustainValue">
+			<value>-10</value>
+		</property>
+		<property name="releaseTime">
+			<value>2000</value>
+		</property>
+	</object>
+</objects>
